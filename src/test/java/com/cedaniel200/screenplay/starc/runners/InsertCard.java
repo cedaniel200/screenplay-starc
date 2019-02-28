@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = { "src/test/resources/features/insert_card.feature" },
-        glue = { "com.cedaniel200.screenplay.starc.stepdefinitions.c"},
+        glue = { "com.cedaniel200.screenplay.starc.stepdefinitions"},
         snippets = SnippetType.CAMELCASE
 )
 public class InsertCard {
